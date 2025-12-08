@@ -93,3 +93,7 @@ For the Sonoff Basic R4 "magic switch" feature, use GPIO5 with a timeout around 
 - Pulses are measured from rising edge to falling edge
 - The ignore range feature is disabled when `ignore_pulse_max` is 0 or not configured
 - All time values are specified in microseconds (us) or milliseconds (ms)
+
+## Acknowledgement
+
+All of this code, apart from the exclusion range feature, comes from https://github.com/ssieb/esphome_components/tree/master/components/magic_switch
